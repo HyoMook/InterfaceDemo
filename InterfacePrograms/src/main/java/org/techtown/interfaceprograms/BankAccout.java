@@ -1,6 +1,6 @@
 package org.techtown.interfaceprograms;
 
-public class BankAccout {
+public class BankAccout implements Measurable {
     private double balance;
     private int accountNumber;
     private static int lastAssingnedNumber=1000;
@@ -12,6 +12,6 @@ public class BankAccout {
     }
 }
 
-    public double getBalance() {
-        return
+    public double getMeasure() {
+        return balance;
     }
